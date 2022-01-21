@@ -1,0 +1,24 @@
+<p>home works!</p>
+
+<table>
+ <thead>
+   <tr>
+     <th>Registro</th>
+     <th>Nombre</th>
+     <th>Apellido</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr *ngFor="let NomyApe of NomyApes">
+     <td>#{{NomyApe.id}}</td>
+     <td>{{NomyApe.name}}</td>
+     <td>{{NomyApe.surname}}</td>
+   </tr>
+ </tbody>
+</table>
+
+<nav>
+  <ul>
+    <li><a routerLink="/about" routerLinkActive="active">About Component</a></li>
+  </ul>
+</nav>
